@@ -280,13 +280,14 @@ img {
 
 .choose {
   height: 912px;
+  background-image: url("../img/Rectangle.png");
+  background-blend-mode: overlay;
+  background-color: #C99B67;
+  margin: 0 20px;
 }
 
 .choose__box {
   height: 703px;
-  background-image: url("../img/Rectangle.png");
-  background-blend-mode: overlay;
-  background-color: #C99B67;
   text-align: center;
 }
 
@@ -384,15 +385,17 @@ img {
 
 .works {
   margin-top: 80px;
-}
-
-.works__box {
+  margin-left: 20px;
+  margin-right: 20px;
   background-image: url("../img/works2.png"), url("../img/line2.png"), url("../img/Rectangle.png");
   background-blend-mode: normal, normal, overlay;
   background-repeat: no-repeat;
   background-size: 213px 177px, 900px 2px, 100% 100%;
   background-position: calc(50% + 520px) calc(50% - 280px), calc(50% - 188px) calc(50% - 194px), center center;
   background-color: #0A775F;
+}
+
+.works__box {
   text-align: center;
 }
 
@@ -559,6 +562,5 @@ img {
   padding: 0;
   list-style-type: none;
 }
-
 
 
